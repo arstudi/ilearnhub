@@ -1,0 +1,37 @@
+
+
+/* Styling for the cards */
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background-color: #f9bc60;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
+    min-width: 200px;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #f9bc60;
+}
+
+/* Styling for the welcome message */
+.welcome-msg {
+    background-color: #f9bc60;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-shadow: 0px 5px 5px #888888;
+    font-size: 65px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

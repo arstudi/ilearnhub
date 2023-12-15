@@ -1,0 +1,235 @@
+
+.navbar {
+    top: 0;
+    padding: 10px;
+    margin-right: 3%;
+  }
+  
+  /* Navigation Links */
+  .navbar a {
+    text-decoration: none;
+    color: White;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  .navbar a:hover{
+  background-color: rgb(41, 118, 211);
+  border-radius: 7px;
+  }
+    
+    
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .back-ground  {
+        background-image:url(https://i.pinimg.com/736x/35/c5/0c/35c50caabd03efc95efe805193bcd2e5.jpg);
+    }
+    header {
+        background-color: rgb(81, 167, 201);
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        max-width: 97%;
+        margin: auto;
+        border-radius: 8px;
+
+    }
+
+    section {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    /*Article Section Style*/
+    article {
+        flex: 1;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        height: auto;
+        margin-left: 1%;
+
+    }
+    article h1 {
+        color: black;
+        font-size: 40px;
+        margin-bottom: 10px;
+        margin-left: 1%;
+    }
+    article h2{
+        color: black;
+        margin-bottom: 10px;
+        font-size: 30px;
+        margin-left: 1%;
+    }
+
+    article h3 {
+        color: black;
+        font-size: 25px;
+        margin-left: 1%;
+    }
+
+    article p {
+        color: black;
+        font-size: 17px;
+        margin-left: 1%;
+    }
+
+    article img {
+        width: 65%;
+        border-radius: 10px;
+        margin-left: 1%;
+
+    }
+
+    /*Hiding the next article*/
+    .hidden {
+        display: none;
+    }
+
+    .code_text {
+        color: crimson;
+    }
+
+    #introduction ul{
+        list-style-type: disc;
+    }
+
+    #introduction li {
+        display: list-item;
+        margin-left: 20px;
+        color: #000;
+    }
+
+    strong {
+        font-weight: bold;
+        color: #000;
+    }
+
+    hr {
+        opacity: 0.3;
+    }
+    .example_table table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px;
+    }
+
+    .example_table th, td {
+        padding: 8px;
+        text-align: left;
+        color: #000;
+    }
+
+    .example_table th {
+        background-color: #f2f2f2;
+    }
+#backToTopBtn {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    /*Sidebar Navigation Style*/
+    aside {
+        width: 250px;
+        background-color: rgb(81, 167, 201);
+        color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-size: 20px;
+        text-align: center;
+        max-height: 570px;
+    }
+
+    aside h2 {
+        color: #fff;
+        border-bottom: 2px solid #fff;
+        padding-bottom: 10px;
+    }
+
+    aside ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    aside li {
+        margin-bottom: 5px;
+    }
+
+    aside a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 8px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    aside a:hover {
+        background-color: #555;
+    }
+
+    /*Previous Next Button Design*/
+    .course_button .nxt_but{
+        background-color: rgb(81, 167, 201);
+        border-radius: 10px;
+        border-style: none;
+        color: #000;
+        padding: 10px;
+        font-size: 18px;
+        float: right;
+    }
+    .course_button .prv_but {
+        background-color: rgb(81, 167, 201);
+        border-radius: 10px;
+        border-style: none;
+        color: #000;
+        padding: 10px;
+        font-size: 18px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .btn-next {
+        background-color: rgb(81, 167, 201);
+        border-radius: 10px;
+        border-style: none;
+        color: #000;
+        padding: 10px;
+        font-size: 18px;
+        float: right;
+        transition: 0.3s ease;
+        cursor: pointer;
+    }
+    .btn-next:hover {
+        background-color: #555;
+    }
+
+    #result {
+        margin-top: 20px;
+        font-weight: bold;
+        display: none; /* Initially hide the result */
+        color: #000;
+    }
+    input[type="radio"] {
+        margin-right: 10px;
+    }
+    label {
+        font-size: 18px;
+    }
+
+    #HTMLQ {
+        margin-bottom: -200px;
+    }
+    p{
+        color: black;
+    }

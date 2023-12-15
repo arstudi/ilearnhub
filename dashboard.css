@@ -1,0 +1,79 @@
+/* dashboard.css */
+body{
+    background-color: #004643;
+}
+/* Styling for student and user count containers */
+.dashboard-container {
+    background-color: #f9bc60;
+    border-radius: 24px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 70px;
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 7.5%;
+    text-align: center;
+}
+iframe{
+    border: 1px solid white;
+}
+svg-icon{
+    margin: auto;
+    display: inline-block;
+    margin-left: 4%
+}
+
+.student-count {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+
+.user-count {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+}
+
+header{
+    background-color: #abd1c6;
+}
+nav {
+color: #001e1d;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #10352a;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #e16162;
+}
+
+main-container{
+    background-color: #f9bc60;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+} 
+

@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bahnschrift;
+
+}
+.p {
+font-size: 20px;
+}
+.main_icon{
+    height:100px;
+    margin-left: -100px
+}
+.background {
+    background-image:url(https://i.pinimg.com/736x/35/c5/0c/35c50caabd03efc95efe805193bcd2e5.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+}
+
+/*Navigation Bar Style*/
+.navbar {
+        top: 0;
+        padding: 10px;
+        margin-right: 1%;
+        margin: auto;
+      }
+
+      /* Navigation Links */
+.navbar a {
+        text-decoration: none;
+        color: White;
+        font-weight: bold;
+        padding: 10px;
+        font-size: 20px;
+        
+        
+        
+      }
+.navbar a:hover{
+    background-color: rgb(41, 118, 211);
+    border-radius: 7px;
+}
+
+      /* Dropdown Menu */
+.dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+.dropdown-content {
+        display: none;
+        position: absolute;
+        padding-top: 10px;
+        z-index: 1;
+      }
+
+.dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+.dropdown-content a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+      }
+.dropdown-content a:hover {
+    background-color: rgb(41, 118, 211);
+    border-radius: 7px;
+}
+
+/*Body Style*/
+.section-1 {
+    height: 100vh;
+    width: 100%;
+    padding: 10px 100px;
+}
+.section-1 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+
+}
+.section-1 nav .logo{
+    font-size: 32px;
+    color: #fff;
+}
+.section-1 nav .logo .dot{
+    color: #dc143c;
+    font-size: 45px;
+}
+.section-1 nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+
+}
+.section-1 nav ul li a{
+    text-decoration:none;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    color: white;
+}
+.section-1 nav ul li a:hover{
+    color:aqua;
+}
+.section-1 nav ul li .login{
+    color:black;
+    color: white;
+}
+.section-1 nav ul li .btn-1{
+    border: 1px solid black;
+    color: black;
+    padding: 9px 15px;
+}
+.section-1 nav ul li .btn-1:hover{
+    color: white;
+    background-color: black;
+}
+.section-1 .container-1 {
+    display: flex;
+    justify-content:space-between;
+}
+.section-1 .container-1 .contains-1 {
+    margin-top: 20px;
+    position: absolute;
+}
+.section-1 .container-1 .contains-1 h1{
+    font-size: 60px;
+    color: #fff;
+}
+.section-1 .container-1 .contains-1 p{
+    font-size: 18px;
+    color: #fff;
+}
+/* Buttons Style*/
+.bt{
+    background-color: red;
+    border-radius: 8px;
+}
+/* Card Grid Layout Design*/
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 50px;
+    margin: auto;
+    max-width: 1200px;
+  }
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card h2 {
+    color: #333333;
+}
+
+.card p {
+    color: #666666;
+}
+.icon {
+    font-size: 50px;
+    color: #3498db;
+  }
+.card-title{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    color:#fff;
+}
+
+/*Html CSS card*/
+.focus-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 70px;
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+  }
+.focus-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+.icon-html {
+    font-size: 50px;
+    color: red;
+}
+
+.focus-card:hover {
+    transform: scale(1.05);
+}
+
+.focus-content {
+    padding: 20px;
+}
+
+.focus-card h2 {
+    color: #333333;
+}
+
+.focus-card p {
+    color: #666666;
+}
+
+/*conclusion style*/
+
+.conclude-content{
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    color: #fff;
+    font-size: 18px;
+}
+.conclude-container .conclude-title {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/*Footer Style*/
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+  }
